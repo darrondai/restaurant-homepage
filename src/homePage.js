@@ -1,7 +1,7 @@
 // initial page-layout setup module
 import restaurantImg from "./assets/restaurant.jpg";
 
-export function initialPageSetup() {
+export function homePageSetup() {
   const contentDiv = document.querySelector("div#content");
 
   const img = document.createElement("img");
