@@ -13,7 +13,6 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
-    open: true,
     host: "localhost",
     watchFiles: ["./src/template.html"],
   },
