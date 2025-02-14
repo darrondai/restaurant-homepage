@@ -3,6 +3,7 @@ import restaurantImg from "./assets/restaurant.jpg";
 
 export function homePageSetup() {
   const contentDiv = document.querySelector("div#content");
+  contentDiv.textContent = "";
 
   const img = document.createElement("img");
   img.src = restaurantImg;
